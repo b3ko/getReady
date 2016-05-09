@@ -1,0 +1,60 @@
+.fa-big {
+  font-size: 300px;
+  background-color: black;
+}
+
+.fa-med {
+  font-size: 100px;
+  background-color: #777777;
+}
+
+#bus {
+   color: yellow; 
+   background-color: black;
+}
+
+#potty {
+  background-color: white;
+  border: black 1px solid;
+}
+
+#breakfast {
+  background-color: orange;
+}
+
+#dressed {
+  background-color: pink;
+}
+
+#face {
+  background-color: red;
+}
+
+#hair {
+  background-color: brown;
+}
+
+#teeth {
+  background-color: blue;
+}
+
+#shoes {
+  background-color: purple;
+}
+
+.icon {
+  padding: 10px 25px;
+  border-radius: 25%;
+  margin: 5px;
+}
+
+.selected {
+  background-color: black;
+  color: yellow;
+}
+
+.clock {
+  font-size: 4em;
+  color: yellow;
+  background-color: black;
+}
