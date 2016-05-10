@@ -1,5 +1,5 @@
 interval = null;
-var dict = {0: ["", "black"], 1: ["fa-heart","white"] , 2: ["fa-odnoklassniki", "orange"], 3: ["fa-apple","pink"], 4: ["fa-arrows-alt","blue"]
+var dict = {0: ["", "black"], 1: ["fa-heart","gray"] , 2: ["fa-odnoklassniki", "orange"], 3: ["fa-apple","pink"], 4: ["fa-arrows-alt","blue"]
 	, 5: ["fa-chrome","red"], 6: ["fa-fort-awesome", "brown"], 7: ["fa-github-alt", "purple"], 8: ["fa-bus", "black"]};
   var current = 1;
 
@@ -11,11 +11,8 @@ $(document).ready(function() {
 
 function updateDate(){
 	now = new Date();
-	//alert(now);
-	hour = now.getHours();
-	minute = now.getMinutes();
-	$("#hour").text(hour);
-	$("#minute").text(minute);
+	now = now.toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit'});
+	$("#time").text(now);
 }
 
 $( ".fa-arrow-circle-right" ).click(function() {
