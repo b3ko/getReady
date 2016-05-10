@@ -51,6 +51,7 @@
 .selected {
   background-color: black;
   color: yellow;
+  border: 2px black solid;
 }
 
 .clock {
