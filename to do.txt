@@ -1,0 +1,27 @@
+to do:
+
+- get icons of the actual tasks
+- mysql db
+- login model
+- welcome / comfim email
+- configuration page
+	- hide/display icons
+	- change time of bus
+	- change method of transportation (bus, car, walk)
+- save configuration to db
+- multiple configurations per account, so name for each config
+
+
+
+flow:
+1 - show default with config light box
+2 - if no email - enter email (twice)
+3 - send welcome email with link
+4 - once coming from link, if no values in db, user sees config
+5 - choose which icons to hide, change default time, name, etc
+6 - on save, save to database
+7 - anytime coming from that link show values from the db
+
+other:
+- forgot link - resends link, must have access to that email address
+- links encrypted combo of email, name of config that was saved and some other random or unique thing?
