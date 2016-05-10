@@ -1,6 +1,11 @@
 to do:
 
 - get icons of the actual tasks
+- clock should be a count down clock from log in time to bus departure
+	- two modes (hours and minutes / minutes e.g. 1:15 vs 75)
+- maybe have parents choose times a task needs to be completed by, if child is running late item turns red (too much configuration for parent? possible upgrade?)
+
+
 - mysql db
 - login model
 - welcome / comfim email
